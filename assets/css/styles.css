@@ -379,7 +379,7 @@ color: var(--first-color);
 }
 
 .fab {
-    font-size: 3em;
+    font-size: 2em;
     color: purple;
     margin: 50px;
     transition: all .5s;  
@@ -658,7 +658,7 @@ color: var(--first-color);
 	 justify-content: space-between;
 	 align-items: center;
 	 height: 80px;
-	 border-radius: 2px 2px 0px 0px;
+	border-radius: 25px;
 }
  @media screen and (max-width: 512px) {
 	  .seperates .tabs {
@@ -680,7 +680,6 @@ color: var(--first-color);
 	 justify-content: center;
 	 align-items: center;
 	 font-size: 16px;
-	 font-family: "IBM Plex Sans", sans-serif;
 	 overflow: hidden;
 	 transition: 0.3s ease;
 }
@@ -738,13 +737,11 @@ color: var(--first-color);
 }
 /* Tabs text */
   .seperates .tablinks.active p, .tablinks.active:hover p {
-	 opacity: 1;
 	 background: -webkit-linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 	 -webkit-background-clip: text;
-	 -webkit-text-fill-color: transparent;
+	 font-weight: bold;
 }
   .seperates .tablinks p {
-	 opacity: 0.6;
 	 display: flex;
 	 align-items: center;
 	 justify-content: center;
@@ -763,7 +760,6 @@ color: var(--first-color);
  @media screen and (max-width: 512px) {
 	  .seperates .tablinks:hover p {
 		 color: #686868;
-		 opacity: 0.6;
 	}
 }
 /* Tabs text bigger */
@@ -795,7 +791,6 @@ color: var(--first-color);
 }
 /* tab content */
   .seperates .wrapper_tabcontent {
-	 background-color: white;
 	 margin-top: 0px;
 	 z-index: -3;
 	 position: relative;
@@ -805,6 +800,15 @@ color: var(--first-color);
 	 transition: all 1s ease;
 	 top: 0;
 }
+
+p {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-font-smoothing: antialiased !important;
+  text-rendering: optimizelegibility !important;
+  letter-spacing: .03em;
+}
+
   .seperates .tabcontent {
 	 display: none;
 	 min-height: 180px;

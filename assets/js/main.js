@@ -85,7 +85,3 @@ function openTabs(el) {
    btnTarget.classList.add("active");
 }
 
-
-
-
-

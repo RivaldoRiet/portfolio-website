@@ -3,9 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <link rel="stylesheet" href="assets/css/styles.css">
-
         <!-- =====BOX ICONS===== -->
        <!-- <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'> -->
        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
@@ -57,34 +55,13 @@
                 </div>
             </section>
 
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/lach.jpg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I am Rivaldo</h2>
-                        <p class="about__text">
-						I am a web developer who lives in the Netherlands in the municipality of 's-Hertogenbosch (Den Bosch).
-                In my programming habits, I have worked on many different areas
-                of software development from back end programming (PHP, Javascript, Angular, Laravel, Node, ASP.net)
-                to computer applications (C#, C++, Java) and scripting languages such as Autoit & Python.
-						</p>           
-                    </div>                                   
-                </div>
-            </section>
-
             <!--===== SKILLS =====-->
             <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
+                <h2 class="section-title">Professional Skills</h2>
 
                 <div class="skills__container bd-grid">          
                     <div>
-                        <h2 class="skills__subtitle">Professional Skills</h2>
+                        <h2 class="skills__subtitle">Summary</h2>
                         <p class="skills__text">A brief summary of my skills regarding software development expressed in percentages.</p>
                         <div class="skills__data">
                             <div class="skills__names">
@@ -137,7 +114,7 @@
                     </div>
                     
                     <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                        <img src="assets/img/lach.jpg" alt="" class="skills__img">
                     </div>
                 </div>
             </section>
@@ -145,51 +122,82 @@
             <!--===== WORK =====-->
             <section class="work section" id="work">
                 <h2 class="section-title">Experience</h2>
+					<div class="work__container">
+					 
+<div class="seperates">
+<section id="wrapper">
+   <div class="content">
+      <!-- Tab links -->
+      <div class="tabs">
+		 <button class="tablinks active" data-country="About"><p data-title="About">About</p></button>
+         <button class="tablinks" data-country="Faunatowers"><p data-title="Faunatowers">Faunatowers</p></button>
+         <button class="tablinks" data-country="Enexis"><p data-title="Enexis">Enexis</p></button>
+         <button class="tablinks" data-country="Indicia"><p data-title="Indicia">Indicia</p></button>
+         <button class="tablinks" data-country="Schooling"><p data-title="Schooling">Schooling</p></button>
+      </div>
 
-                <div class="work__container">
-                    <div class="work__img">
-                         <div class="cabinet">
-						<div class="item">
-							<img class="delete tb-icon" src="assets/img/enexis-logo.jpg">
-						  <hr class="divider">
-						  Software Developer - Internship
-						</div>
-						<div class="details">
-							<p>July 2018 - March 2019 . 7 months</p>
-							I worked for Enexis as a full stack developer to create a data management application 
+      <!-- Tab content -->
+      <div class="wrapper_tabcontent">
+	  <div id="About" class="tabcontent active">
+            <h3>About</h3>
+			<h2>Who am I?</h2>
+           
+            <p>
+			I am a developer who currently lives in the Netherlands in the municipality of 's-Hertogenbosch (Den Bosch).
+                In my programming habits, I have worked on many different projects with various techniques
+                this includes back end programming (PHP, Laravel, Node, ASP.net) front end (Angular)
+                and computer applications (C#, C++, Java) and scripting languages such as Autoit & Python.
+				<br>
+				<br>
+
+				Click the tabs to view some of the projects that i've worked on.
+			</p>
+
+         </div>
+		 <div id="Faunatowers" class="tabcontent">
+            <h3>Faunatowers</h3>
+			
+            <p>
+				Following a minor I've participated in called "Emerging technologies playground" (ETP) we worked in the period of February 2021 to July 2021, in conjunction with the municipality of den bosch 
+				to create a monitoring system which uses machine learning to determine which specie of bird is flying into a fauna tower. A faunatower is a large tower which can harbor animals such as birds
+				that are dissapearing due to houses being better isolated and leaving little to no cracks for these birds to shelter. 
+				<img src="assets/img/faunatoren.jpg" width=50px; alt="Experience image" style="display: block; margin-left: auto; margin-right: auto; width: 20%;">
+				The final product made use of a machine learning algorithm called Birdnet and we implemented it in our Angular application and wrote a wrapper for it using C++/C and Python.
+			</p>
+			
+         </div>
+
+         <div id="Enexis" class="tabcontent">
+            <h3>Enexis</h3>
+			<img class="delete tb-icon" src="assets/img/enexis-logo.jpg">
+			<p> From the July 2018 to March 2019 I worked as an intern for Enexis as a full stack developer to create a data management application 
 							that allows Enexis to replace their old MySQL database application with something more modern. 
-							This project was realized using JQuery mobile (Javascript framework), vanilla javascript and PHP for the server side.
-						</div>
-					  </div>
-					  
-					  
-					        <div class="cabinet">
-							 <div class="item">
-								<img class="delete tb-icon" src="assets/img/indicia.png">
-							  <hr class="divider">
-							  Software Developer - Graduation internship
-							</div>
-							<div class="details">
-								<p>August 2020 - February 2021 .  6 months</p>
-								I worked for Indicia to help create a standardized module that delivers components
-								 that can be re-used in various web applications in the future. 
-								 This module was developed in Drupal (PHP framework).
-							</div>
-						  </div>
+							This project was realized using JQuery mobile (Javascript framework), vanilla javascript and PHP for the server side.</p>
 
-						  <div class="cabinet">
-							<div class="item">
-							   <img class="delete tb-icon" src="assets/img/avans.jpg">
-							 <hr class="divider">
-							 Informatica at Avans university 'S-Hertogenbosch
-						   </div>
-						   <div class="details">
-							   <p>August 2016 - July 2021 .  4.6 years</p>
-							   Bachelor of Informatica
-						   </div>
-						 </div>
-						  </div>
-                    </div>
+		  </div>
+
+         <div id="Indicia" class="tabcontent">
+            <h3>Indicia</h3>
+			<img class="delete tb-icon" src="assets/img/indicia.png">
+            <p>
+			From the period of August 2020 to February 2021, I worked as an intern for Indicia to help create a standardized module that delivers components that can be re-used in various web applications in the future. 
+			This module was developed in Drupal (PHP framework).
+			</p>
+         </div>
+
+         <div id="Schooling" class="tabcontent">
+            <h3>Schooling</h3>
+			<img class="delete tb-icon" src="assets/img/avans.jpg">
+            <p>
+			From the period of August 2016 to July 2021, I studied Informatica at Avans university 'S-Hertogenbosch.
+			In this period I obtained my Bachelor of Informatica degree.
+            </p>
+         </div>
+      </div>
+   </div>
+   </div>
+</section>
+</div>
                 </div>
             </section>
 
@@ -198,10 +206,10 @@
                 <h2 class="section-title">Contact</h2>
 			<div class="contact__container bd-grid">
 			<div class="contact__input">
-					<a href='mailto:rivaldo9@hotmail.nl'><i class="fab far fa-envelope"></i></a>
-					<a href='https://github.com/rivaldoriet' target='_blank'><i class="fab fa-github"></i></a>
-					<a href='https://www.linkedin.com/in/rivaldo-s/' target='_blank'><i class="fab fa-linkedin"></i></a>
-					<a href='https://www.instagram.com/rivaldoriet/?hl=en' target='_blank'><i class="fab fa-instagram"></i></a>
+					<a href='mailto:rivaldo9@hotmail.nl'><i class="fab far fa-envelope"> Mail</i></a>
+					<a href='https://www.linkedin.com/in/rivaldo-s/' target='_blank'><i class="fab fa-linkedin"> Linkedin</i></a>
+					<a href='https://github.com/rivaldoriet' target='_blank'><i class="fab fa-github"> Github</i></a>
+					<a href='https://www.instagram.com/rivaldoriet/?hl=en' target='_blank'><i class="fab fa-instagram"> Instagram</i></a>
 				</div>
                 </div>
             </section>

@@ -883,6 +883,7 @@ p {
 	  .seperates .tabcontent p {
 		 font-size: 14px;
 		 line-height: 26px;
+		 color:black;
 	}
 }
  @keyframes fadeEffect {
